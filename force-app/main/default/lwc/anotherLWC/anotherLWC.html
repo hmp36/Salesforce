@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Another LWC" icon-name="custom:custom14">
+
+        <div class="slds-m-around_medium">
+            <h3>Howdy ho!</h3>
+          <p>Hello, {greeting}! This is another LWC.</p>
+          <lightning-input label="Name" value={greeting} onchange={changeHandler}></lightning-input>
+        </div>
+
+        <div>
+          <p>This is an additional p-tag</p>
+        </div>
+      </lightning-card>
+</template>
